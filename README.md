@@ -1,6 +1,6 @@
 ## General
 
-This repo associates to my blog post: https://blog.davidbollobas.hu/2022/09/27/deploying-python-function-to-aws-lambda-using-serverless/
+This repo associates to my blog post: https://blog.davidbollobas.hu/2022/10/10/deploying-python-function-as-lambda-with-api-gateway/
 
 ## Prerequisites
 
