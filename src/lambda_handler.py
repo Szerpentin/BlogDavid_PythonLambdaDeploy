@@ -1,5 +1,4 @@
 import datetime
-import json
 
 def handler(event, context) -> str:
     dt = datetime.datetime.now(datetime.timezone.utc)
