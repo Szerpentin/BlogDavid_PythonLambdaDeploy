@@ -11,3 +11,10 @@ functions:
     memorySize: 128
     timeout: 30
     runtime: python3.8
+    events:
+      - http:
+          path: /{proxy+}
+          method: any
+      - http:
+          path: /
+          method: any
