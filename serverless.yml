@@ -1,0 +1,13 @@
+service: BlogDavidPythonLambdaDeploy
+
+provider:
+  name: aws
+  region: eu-west-1
+
+functions:
+  utc-time-teller:
+    name: utc-time-teller
+    handler: src/lambda_handler.handler
+    memorySize: 128
+    timeout: 30
+    runtime: python3.8
